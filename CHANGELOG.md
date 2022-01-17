@@ -250,8 +250,8 @@ ATT&CK Navigator v3.0 and v3.1 includes support for sub-techniques as well as im
 
 If you want to continue using the non-sub-techniques Navigator, please use the [v2.3.2 release](https://github.com/mitre-attack/attack-navigator/releases/tag/v2.3.2) for local instances or the following live instances of Navigator v2.3.2:
 
-- [Enterprise ATT&CK](https://mitre-attack.github.io/attack-navigator/v2/enterprise/)
-- [Mobile ATT&CK](https://mitre-attack.github.io/attack-navigator/v2/mobile/)
+- [Enterprise ATT&CK](https://y-security.github.io/attack-navigator/v2/enterprise/)
+- [Mobile ATT&CK](https://y-security.github.io/attack-navigator/v2/mobile/)
 
 ## Improvements
 
