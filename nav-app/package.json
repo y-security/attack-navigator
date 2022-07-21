@@ -30,7 +30,7 @@
     "@angular/router": "^11.0.3",
     "@fontsource/roboto": "^4.2.3",
     "@fontsource/roboto-mono": "^4.2.2",
-    "@types/file-saver": "^2.0.1",
+    "@types/file-saver": "^2.0.5",
     "classlist.js": "^1.1.20150312",
     "core-js": "^2.6.12",
     "d3": "^5.16.0",
