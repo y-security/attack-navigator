@@ -9,6 +9,49 @@
     The creation of the tag can be disabled with the --no-git-tag-version if desired.
 -->
 
+# v4.6.5 - 7 July 2022
+
+Adds support for ATT&CK v11.3 and Mobile ATT&CK sub-techniques.
+
+## Fixes
+- Fixed an issue where matrices that have been deprecated would load into the Navigator. See issue [#473](https://github.com/mitre-attack/attack-navigator/issues/473).
+
+# v4.6.4 - 25 May 2022
+
+Adds support for ATT&CK v11.2.
+
+## Fixes
+- Fixed an issue causing disabled techniques with no enabled sub-techniques to appear in the matrix when the hide-disabled control is active. See issue [#466](https://github.com/mitre-attack/attack-navigator/issues/466).
+
+# v4.6.3 - 13 May 2022
+
+## Fixes
+
+- Fixed package import issues causing failure to load techniques with scores or colors, and impacting the ability to render a layer as SVG. See issues [#451](https://github.com/mitre-attack/attack-navigator/issues/451) and [#452](https://github.com/mitre-attack/attack-navigator/issues/452).
+
+# v4.6.2 - 12 May 2022
+
+Adds support for ATT&CK v11.1.
+
+## Improvements
+- Added a feature to pin a technique cell when viewed in the matrix, enabling the user to scroll through the details of the technique in the tooltip. See issue [#320](https://github.com/mitre-attack/attack-navigator/issues/320).
+- Added a popup alert to notify users if a layer with an empty tactic field is uploaded, and therefore will not be displayed. See issue [#326](https://github.com/mitre-attack/attack-navigator/issues/326).
+
+# v4.6.1 - 26 April 2022
+
+## Fixes
+
+- Fixed a versioning error that occurred when loading a local layer with a previous version of ATT&CK.
+
+# v4.6.0 - 25 April 2022
+
+Adds support for ATT&CK v11.
+
+## Improvements
+
+- Revised the rigid versioning structure in the configuration file which enforced too many constraints on importing custom data. Added new fields `version.version` and `domain.identifier` to improve how Navigator derives domain information. More details are provided in the [integration documentation](https://github.com/center-for-threat-informed-defense/attack-workbench-frontend/blob/develop/docs/integrations.md#attck-navigator-integration) on how to integrate the ATT&CK Navigator with the ATT&CK Workbench. See issue [#370](https://github.com/mitre-attack/attack-navigator/issues/370).
+- Fixed an issue where a long technique name or metadata value would overflow outside the technique tooltip. See issue [#359](https://github.com/mitre-attack/attack-navigator/issues/359).
+
 # v4.5.5 - 7 January 2022
 
 ## Fixes
@@ -250,8 +293,8 @@ ATT&CK Navigator v3.0 and v3.1 includes support for sub-techniques as well as im
 
 If you want to continue using the non-sub-techniques Navigator, please use the [v2.3.2 release](https://github.com/mitre-attack/attack-navigator/releases/tag/v2.3.2) for local instances or the following live instances of Navigator v2.3.2:
 
-- [Enterprise ATT&CK](https://y-security.github.io/attack-navigator/v2/enterprise/)
-- [Mobile ATT&CK](https://y-security.github.io/attack-navigator/v2/mobile/)
+- [Enterprise ATT&CK](https://mitre-attack.github.io/attack-navigator/v2/enterprise/)
+- [Mobile ATT&CK](https://mitre-attack.github.io/attack-navigator/v2/mobile/)
 
 ## Improvements
 
